@@ -5,10 +5,11 @@
     "start": "node build/app.js",
     "build": "babel -d ./build ./src -s",
     "dev": "nodemon --exec babel-node src/app.js",
-    "test": "mocha"
+    "test": "mocha --require @babel/register"
   },
   "author": "Igor Berlenko",
   "dependencies": {
+    "@babel/register": "^7.0.0",
     "express": "4.16.3"
   },
   "devDependencies": {
