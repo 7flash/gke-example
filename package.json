@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node build/app.js",
-    "build": "babel -d ./build ./src -s",
+    "build": "babel -d ./build ./src -s && cp -r ./src/views ./build/",
     "dev": "nodemon --exec babel-node src/app.js",
     "test": "mocha --require @babel/register"
   },
