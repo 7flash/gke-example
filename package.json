@@ -10,7 +10,8 @@
   "author": "Igor Berlenko",
   "dependencies": {
     "@babel/register": "^7.0.0",
-    "express": "4.16.3"
+    "express": "4.16.3",
+    "express-handlebars": "^3.0.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
